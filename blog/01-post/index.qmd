@@ -1,0 +1,40 @@
+---
+title: "Meu primeiro post"
+description: "Uma breve apresentação do primeiro post deste blog."
+author: "Vinícius Silva Faria"
+date: "2026-09-21"
+categories: [Quarto, Blog]
+image: imagem.jpg
+---
+
+Este é o primeiro post do meu website criado com Quarto.
+
+Neste espaço, pretendo compartilhar conteúdos relacionados aos meus interesses
+acadêmicos e profissionais.
+
+## Sobre este blog
+
+O blog será usado para reunir textos, análises e outros materiais que eu queira
+organizar e compartilhar.
+
+## Uma pequena análise com R
+
+```{r}
+#| label: fig-mpg-peso
+#| fig-cap: "Relação entre peso e eficiência de combustível dos automóveis."
+
+# carrega o pacote 
+library(ggplot2)
+
+# cria um gráfico de dispersão entre mpg e wt
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point() +
+  labs(
+    x = "Peso do automóvel (1.000 lb)",
+    y = "Eficiência de combustível (milhas por galão)"
+  ) +
+  theme_minimal()
+```
+
+No conjunto de dados `mtcars`, os automóveis mais pesados tendem a percorrer
+menos milhas por galão de combustível.

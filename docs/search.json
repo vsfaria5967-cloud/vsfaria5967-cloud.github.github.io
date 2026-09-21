@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Vinícius Silva Faria",
+    "section": "",
+    "text": "Bem-vindo(a) ao meu website.\nEste espaço reúne conteúdos relacionados à minha trajetória acadêmica e profissional, aos meus interesses e a temas que pretendo compartilhar ao longo do tempo."
+  },
+  {
+    "objectID": "blog/01-post/index.html",
+    "href": "blog/01-post/index.html",
+    "title": "Meu primeiro post",
+    "section": "",
+    "text": "Este é o primeiro post do meu website criado com Quarto.\nNeste espaço, pretendo compartilhar conteúdos relacionados aos meus interesses acadêmicos e profissionais."
+  },
+  {
+    "objectID": "blog/01-post/index.html#sobre-este-blog",
+    "href": "blog/01-post/index.html#sobre-este-blog",
+    "title": "Meu primeiro post",
+    "section": "Sobre este blog",
+    "text": "Sobre este blog\nO blog será usado para reunir textos, análises e outros materiais que eu queira organizar e compartilhar."
+  },
+  {
+    "objectID": "blog/01-post/index.html#uma-pequena-análise-com-r",
+    "href": "blog/01-post/index.html#uma-pequena-análise-com-r",
+    "title": "Meu primeiro post",
+    "section": "Uma pequena análise com R",
+    "text": "Uma pequena análise com R\n\n# carrega o pacote \nlibrary(ggplot2)\n\n# cria um gráfico de dispersão entre mpg e wt\nggplot(mtcars, aes(x = wt, y = mpg)) +\n  geom_point() +\n  labs(\n    x = \"Peso do automóvel (1.000 lb)\",\n    y = \"Eficiência de combustível (milhas por galão)\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n\n\nFigura 1: Relação entre peso e eficiência de combustível dos automóveis.\n\n\n\n\n\nNo conjunto de dados mtcars, os automóveis mais pesados tendem a percorrer menos milhas por galão de combustível."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre",
+    "section": "",
+    "text": "Sou mestrando(a) em Administração no IFMG - Campus Formiga. Tenho formação em Administração e atuo em gestão administrativa.\nMeus interesses acadêmicos e profissionais incluem temas relacionados à Administração, pesquisa aplicada e análise de dados.\nEsta página apresenta uma breve síntese da minha trajetória e dos temas que orientam meus estudos e atividades profissionais."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Meu primeiro post\n\n\n\nQuarto\n\nBlog\n\n\n\nUma breve apresentação do primeiro post deste blog.\n\n\n\nVinícius Silva Faria\n\n\n21 de set. de 2026\n\n\n\n\n\n\nSem itens correspondentes"
+  }
+]
